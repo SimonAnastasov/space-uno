@@ -1,0 +1,26 @@
+/* --yellow: F8DA27 */
+
+.cardContainer {
+  color: #F8DA27;
+  background-color: rgba(0, 0, 0, .5);
+  text-align: center;
+}
+
+.cardContainer>* {
+  cursor: pointer;
+  transition: transform .1s linear;
+  padding: 0 !important;
+}
+
+.cardContainer>*:hover {
+  transform: scale(1.2);
+  color: black;
+  background-color:#F8DA27BF;
+  /* background-color:#F8DA27; */
+  box-shadow: -2px 5px 50px #F8DA2780;
+}
+
+.name {
+  color: white;
+  transform: rotateZ(-10deg);
+}

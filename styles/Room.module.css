@@ -1,0 +1,52 @@
+.roomContainer {
+    color: white;
+    background-color: #00000080;
+    border: 1px solid #F8DA27;
+    border-radius: 20px;
+
+    transition: transform .1s linear, background-color .1s linear;
+    cursor: pointer;
+}
+
+.roomContainer:hover {
+    transform: scale(1.05);
+    background-color: #22222280;
+}
+
+.roomLogo {
+    margin-top: -1.5rem;
+    margin-left: -1.8rem;
+}
+
+.cardLeftContainer {
+    margin-left: -3rem;
+}
+
+.cardLeft {
+    transform: rotateZ(-20deg) scale(0.5);
+}
+
+.cardRightContainer {
+    margin-right: -3rem;
+}
+
+.cardRight {
+    transform: rotateZ(20deg) scale(0.5);
+}
+
+.roomName {
+    color: #F8DA27;
+}
+
+.button {
+    border: 1px solid #F8DA27;
+    border-radius: 20px;
+    background-color: black;
+    padding: 8px 16px;
+    transition: transform .1s linear, background-color .1s linear;
+}
+
+.button:hover {
+    background-color: #222;
+    /* transform: scale(1.1); */
+}

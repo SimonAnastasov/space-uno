@@ -1,0 +1,37 @@
+.container {
+    color: #F8DA27;
+    text-align: center;
+}
+
+.searchContainer {
+    transition: transform .1s linear, background-color .1s linear;
+}
+
+.searchContainer:hover {
+    transform: scale(1.1);
+}
+
+.searchIcon {
+    font-size: 2rem;
+}
+
+.search {
+    color: #F8DA27;
+    background-color: #000000;
+    padding-left: 5px;
+    font-size: 1.4rem;
+    border-radius: 5px;
+}
+
+.button {
+    border: 1px solid #F8DA27;
+    border-radius: 20px;
+    background-color: black;
+    padding: 8px 16px;
+    transition: transform .1s linear, background-color .1s linear;
+}
+
+.button:hover {
+    background-color: #222;
+    transform: scale(1.1);
+}
